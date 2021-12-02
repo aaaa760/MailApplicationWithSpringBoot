@@ -24,7 +24,7 @@ public class MailController {
 
     user.setFirstName("appala");
     user.setLastName("avinash");
-    user.setEmailAddress("************@gmail.com");
+    user.setEmailAddress("*************@gmail.com");
 
     try{
         Notification.sendMail(user);
@@ -40,7 +40,7 @@ public class MailController {
 
         user.setFirstName("avinash");
         user.setLastName("appala");
-        user.setEmailAddress("************@gmail.com");
+        user.setEmailAddress("*************@gmail.com");
 
         try{
             Notification.sendMailAttachment(user);

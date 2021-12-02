@@ -42,7 +42,7 @@ public class MailService {
         help.setSubject("Testing my mailApi with a attachment");
         help.setText("Please find the attachment below");
 
-        ClassPathResource r = new ClassPathResource("Resume.pdf");
+        ClassPathResource r = new ClassPathResource("testing.pdf");
         help.addAttachment(Objects.requireNonNull(r.getFilename()),r);
         javaMailSender.send(mail);
     }
